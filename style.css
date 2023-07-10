@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  display: inline-flex;
+  padding: 20px 43px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background: #e55473;
+}
+/* main section css */
+.main {
+  background-color: rgba(229, 84, 115, 0.1);
+  height: 100vh;
+}
+.banner {
+  padding: 25px 60px 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flower-caption {
+  width: 600px;
+}
+.main h1 {
+  font-size: 70px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.main p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 30px;
+}
+
+.main img {
+  width: 435px;
+  height: 600px;
+}
+
+/* Sale section css */
+.sale {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.deal {
+  height: 60vh;
+  padding: 20px 40px 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sale-off {
+  width: 580px;
+  margin-left: 50px;
+  text-align: center;
+}
+.sale-off h1 {
+  font-size: 40px;
+  color: #272727;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.sale-off h1 span {
+  color: #e55473;
+}
+.sale-off p {
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.deal img {
+  width: 220px;
+  height: 290px;
+  margin-right: 100px;
+}
