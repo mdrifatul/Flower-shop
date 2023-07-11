@@ -41,6 +41,52 @@ button {
   height: 600px;
 }
 
+/* Feature section css */
+
+.feature-flower {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feature-flower h1 {
+  color: #272727;
+  padding: 16px 0;
+  margin-top: 70px;
+}
+.feature-flower p {
+  padding: 16px 0;
+  width: 50%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 16px;
+}
+.feature-img {
+  display: flex;
+}
+.tree {
+  padding: 70px 35px 0px 35px;
+  margin-right: 20px;
+  border-radius: 250px 250px 0 0;
+}
+.pink {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.red {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.green {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-img img {
+  width: 260px;
+  height: 300px;
+}
+.feature-img p {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Sale section css */
 .sale {
   background-color: rgba(229, 84, 115, 0.05);
@@ -155,48 +201,38 @@ button {
   color: rgba(255, 255, 255, 0.4);
   padding-top: 16px;
 }
-/* Feature section css */
 
-.feature-flower {
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.feature-flower h1 {
-  color: #272727;
-  padding: 16px 0;
-  margin-top: 70px;
-}
-.feature-flower p {
-  padding: 16px 0;
-  width: 50%;
-  margin: auto;
-  color: rgba(39, 39, 39, 0.6);
-  margin-bottom: 16px;
-}
-.feature-img {
+/* customer section css */
+
+.customer-comment {
   display: flex;
+  width: 80%;
+  margin: auto;
 }
-.tree {
-  padding: 70px 35px 0px 35px;
-  margin-right: 20px;
-  border-radius: 250px 250px 0 0;
-}
-.pink {
-  background-color: rgba(167, 33, 98, 0.15);
-}
-.red {
-  background-color: rgba(5, 151, 160, 0.15);
-}
-.green {
-  background-color: rgba(71, 125, 17, 0.15);
-}
-.feature-img img {
-  width: 260px;
-  height: 300px;
-}
-.feature-img p {
+.customer-feedback h1 {
+  text-align: center;
+  padding: 10px;
   color: black;
-  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.customer-comment p {
+  font-style: italic;
+  font-weight: bold;
+  color: #262424c8;
+  padding: 10px 20px;
+}
+
+.customer-msg .cutomer-name {
+  color: black;
+  font-style: normal;
+}
+
+.customer-msg .cutomer-name span {
+  color: #343232c1;
+}
+
+.customer-feedback {
+  margin-bottom: 40px;
 }
