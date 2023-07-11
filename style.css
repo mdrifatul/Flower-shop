@@ -17,6 +17,8 @@ button {
 }
 .banner {
   padding: 25px 60px 0px 60px;
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -73,4 +75,128 @@ button {
   width: 220px;
   height: 290px;
   margin-right: 100px;
+}
+
+/* instagram section css */
+.instagram {
+  padding: 40px 50px 50px 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.instagram-flower h1 {
+  color: #272727;
+  margin-bottom: 20px;
+}
+.instagram-flower p {
+  margin-bottom: 40px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.instagram-flower .image {
+  width: 880px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.instagram-flower .image img {
+  display: inline-flex;
+  width: 200px;
+  /* margin-right: 10px; */
+  padding: 0 5px 0 5px;
+}
+.shopping {
+  width: 842px;
+  height: 50vh;
+  background-image: url(image/Rectangle\ 9.png);
+  margin: auto;
+  margin-bottom: 30px;
+}
+.submit {
+  padding: 80px;
+}
+.submit h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.submit p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 16px;
+}
+.submit input {
+  width: 400px;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+/* footer section css */
+.footer {
+  height: 50vh;
+  background-color: #111010;
+}
+.description {
+  width: 40%;
+  padding: 95px;
+  margin: auto;
+  text-align: center;
+}
+.description h1 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.description h1 span {
+  color: #e55473;
+}
+.description p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.description h6 {
+  color: rgba(255, 255, 255, 0.4);
+  padding-top: 16px;
+}
+/* Feature section css */
+
+.feature-flower {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feature-flower h1 {
+  color: #272727;
+  padding: 16px 0;
+  margin-top: 70px;
+}
+.feature-flower p {
+  padding: 16px 0;
+  width: 50%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 16px;
+}
+.feature-img {
+  display: flex;
+}
+.tree {
+  padding: 70px 35px 0px 35px;
+  margin-right: 20px;
+  border-radius: 250px 250px 0 0;
+}
+.pink {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.red {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.green {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-img img {
+  width: 260px;
+  height: 300px;
+}
+.feature-img p {
+  color: black;
+  text-decoration: underline;
 }
